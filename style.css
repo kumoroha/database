@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'notosansjp';
+    src: url('https://github.com/kumoroha/fonts/raw/refs/heads/main/NotoSansJP-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'notosansjp', sans-serif;
+}
+table {
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #000000;
+    padding: 5px;
+    text-align: left;
+}
+
+#container {
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+h2{
+    margin: 10px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
+}

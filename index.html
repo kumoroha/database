@@ -2,7 +2,27 @@
   <head>
     <meta charset="UTF-8">
     <title>Database</title>
+    <link rel="stylesheet" href="./style.css"> 
   </head>
   <body>
+    <h1>Army&nbsp;Database</h1>
+    <h2>JR各社</h2>
+      <details id="container">
+      <summary>師団分け</summary>
+        <table id="group">
+          <thead>
+            <tr id="tr_g" style="color: white">
+              <th>領地名</th>
+              <th>師団</th>
+              <th>艦隊</th>
+              <th>空母航空団</th>
+              <th>飛行群</th>
+            </tr>
+          </thead>
+          <tbody id="table_group"></tbody>
+        </table>
+      </details>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
